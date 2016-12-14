@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+      <h4  class="base-class" ng-class="changeImage">
+        {{items.photo[randomItems[1]].title}}
+      </h4>
+      <img ng-mouseover="changeImage='my-class'" ng-mouseleave="changeImage=''" ng-src="{{items.photo[randomItems[1]].img}}" alt="Description" />
+
+      <h4  class="base-class" ng-class="changeImage">
+        {{items.photo[randomItems[1]].description}}
+      </h4>
+  </div>
+</div>

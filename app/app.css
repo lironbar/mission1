@@ -1,0 +1,43 @@
+/* app.css */
+
+/* BASIC STYLINGS
+============================================================================= */
+html body {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+h4 {
+    display: none;
+}
+
+.base-class.my-class {
+
+
+  display: block;
+  position: absolute;
+}
+
+img {
+  width: 100%;
+}
+
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.header {
+  padding: 30px 0 20px;
+}
+
+.ng-hide-add-active, .ng-hide-remove {
+  display: inherit !important;
+}
+.ng-hide:not(.ng-animate) {
+  display: none !important;
+}
